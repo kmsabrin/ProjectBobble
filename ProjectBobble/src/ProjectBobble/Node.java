@@ -12,7 +12,7 @@ public class Node {
 	Node(String timeStamp, String searchTerm, String pageNo) {
 		links = new ArrayList();
 		this.timeStamp = timeStamp;
-		this.pageNo = pageNo;
-		this.searchTerm = searchTerm;
+		this.pageNo = pageNo; // google search result page no
+		this.searchTerm = searchTerm; // chrome google search query term
 	}	
 }
